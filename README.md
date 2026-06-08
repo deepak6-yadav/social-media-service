@@ -29,13 +29,13 @@ flowchart LR
   Media --> Cloudinary[Cloudinary]
 ```
 
-| Service | Default Port | Responsibility |
-|---------|--------------|----------------|
-| **API Gateway** | 3000 | Single entry point, JWT validation, rate limiting, request proxying |
-| **Identity Service** | 3001 | User registration, login, JWT access/refresh tokens, logout |
-| **Post Service** | — | Create, read, list, and delete posts; publishes domain events |
-| **Media Service** | 3003 | Upload and list media files via Cloudinary |
-| **Search Service** | — | Full-text search over posts (synced via events) |
+| Service              | Default Port | Responsibility                                                      |
+| -------------------- | ------------ | ------------------------------------------------------------------- |
+| **API Gateway**      | 3000         | Single entry point, JWT validation, rate limiting, request proxying |
+| **Identity Service** | 3001         | User registration, login, JWT access/refresh tokens, logout         |
+| **Post Service**     | 3002         | Create, read, list, and delete posts; publishes domain events       |
+| **Media Service**    | 3003         | Upload and list media files via Cloudinary                          |
+| **Search Service**   | 3004         | Full-text search over posts (synced via events)                     |
 
 ## Tech Stack
 
@@ -88,56 +88,6 @@ cd ../search-service && npm install
 
 Create a `.env` file in each service directory. Example values:
 
-**api-gateway/.env**
-
-```env
-PORT=3000
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=your-jwt-secret
-IDENTITY_SERVICE_URL=http://localhost:3001
-POST_SERVICE_URL=http://localhost:3002
-MEDIA_SERVICE_URL=http://localhost:3003
-SEARCH_SERVICE_URL=http://localhost:3004
-```
-
-**identity-service/.env**
-
-```env
-PORT=3001
-MONGO_URI=mongodb://localhost:27017/social-media-identity
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=your-jwt-secret
-```
-
-**post-service/.env**
-
-```env
-PORT=3002
-MONGO_URI=mongodb://localhost:27017/social-media-posts
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=your-jwt-secret
-RABBITMQ_URL=amqp://localhost
-```
-
-**media-service/.env**
-
-```env
-PORT=3003
-MONGO_URI=mongodb://localhost:27017/social-media-media
-JWT_SECRET=your-jwt-secret
-RABBITMQ_URL=amqp://localhost
-```
-
-**search-service/.env**
-
-```env
-PORT=3004
-MONGO_URI=mongodb://localhost:27017/social-media-search
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=your-jwt-secret
-RABBITMQ_URL=amqp://localhost
-```
-
 > Use the same `JWT_SECRET` across all services that validate tokens.
 
 ### 3. Start services
@@ -164,12 +114,12 @@ All client requests go through the API gateway at `http://localhost:3000/v1`. Pr
 
 ### Authentication (`/v1/auth`)
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/v1/auth/register` | No | Register a new user |
-| POST | `/v1/auth/login` | No | Log in and receive tokens |
-| POST | `/v1/auth/refreshToken` | No | Refresh access token |
-| POST | `/v1/auth/logout` | No | Invalidate refresh token |
+| Method | Endpoint                | Auth | Description               |
+| ------ | ----------------------- | ---- | ------------------------- |
+| POST   | `/v1/auth/register`     | No   | Register a new user       |
+| POST   | `/v1/auth/login`        | No   | Log in and receive tokens |
+| POST   | `/v1/auth/refreshToken` | No   | Refresh access token      |
+| POST   | `/v1/auth/logout`       | No   | Invalidate refresh token  |
 
 **Register / login body:**
 
@@ -183,12 +133,12 @@ All client requests go through the API gateway at `http://localhost:3000/v1`. Pr
 
 ### Posts (`/v1/posts`)
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/v1/posts/create-post` | Yes | Create a post |
-| GET | `/v1/posts/all-posts?page=1&limit=10` | Yes | List current user's posts (paginated, cached) |
-| GET | `/v1/posts/get-post/:id` | Yes | Get a single post by ID |
-| DELETE | `/v1/posts/:id/` | Yes | Delete a post |
+| Method | Endpoint                              | Auth | Description                                   |
+| ------ | ------------------------------------- | ---- | --------------------------------------------- |
+| POST   | `/v1/posts/create-post`               | Yes  | Create a post                                 |
+| GET    | `/v1/posts/all-posts?page=1&limit=10` | Yes  | List current user's posts (paginated, cached) |
+| GET    | `/v1/posts/get-post/:id`              | Yes  | Get a single post by ID                       |
+| DELETE | `/v1/posts/:id/`                      | Yes  | Delete a post                                 |
 
 **Create post body:**
 
@@ -201,24 +151,24 @@ All client requests go through the API gateway at `http://localhost:3000/v1`. Pr
 
 ### Media (`/v1/media`)
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/v1/media/upload` | Yes | Upload a file (`multipart/form-data`, field: `file`) |
-| GET | `/v1/media/all-medias` | Yes | List uploaded media for the user |
+| Method | Endpoint               | Auth | Description                                          |
+| ------ | ---------------------- | ---- | ---------------------------------------------------- |
+| POST   | `/v1/media/upload`     | Yes  | Upload a file (`multipart/form-data`, field: `file`) |
+| GET    | `/v1/media/all-medias` | Yes  | List uploaded media for the user                     |
 
 ### Search (`/v1/search`)
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| GET | `/v1/search/posts?query=hello` | Yes | Full-text search over post content |
+| Method | Endpoint                       | Auth | Description                        |
+| ------ | ------------------------------ | ---- | ---------------------------------- |
+| GET    | `/v1/search/posts?query=hello` | Yes  | Full-text search over post content |
 
 ## Event-Driven Communication
 
 Services use a RabbitMQ topic exchange named `social_media_events`:
 
-| Event | Publisher | Consumers | Purpose |
-|-------|-----------|-----------|---------|
-| `post.created` | Post Service | Search Service | Index new posts for search |
+| Event          | Publisher    | Consumers                     | Purpose                                          |
+| -------------- | ------------ | ----------------------------- | ------------------------------------------------ |
+| `post.created` | Post Service | Search Service                | Index new posts for search                       |
 | `post.deleted` | Post Service | Search Service, Media Service | Remove search index entries and associated media |
 
 ## Features
