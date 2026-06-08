@@ -806,3 +806,42 @@
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T01:14:15.905Z"}
 {"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T01:14:15.905Z"}
 {"level":"info","message":"Response received from Identity Service: 200","service":"api-gateway-service","timestamp":"2026-06-08T01:14:15.963Z"}
+{"level":"info","message":"API Gateway is running on port: 3000","service":"api-gateway-service","timestamp":"2026-06-08T03:13:03.469Z"}
+{"level":"info","message":"Identity Service is running on  http://localhost:3001","service":"api-gateway-service","timestamp":"2026-06-08T03:13:03.472Z"}
+{"level":"info","message":"Post Service is running on  http://localhost:3002","service":"api-gateway-service","timestamp":"2026-06-08T03:13:03.473Z"}
+{"level":"info","message":"Media Service is running on  http://localhost:3003","service":"api-gateway-service","timestamp":"2026-06-08T03:13:03.473Z"}
+{"level":"info","message":"Redis is running on: redis://localhost:6379","service":"api-gateway-service","timestamp":"2026-06-08T03:13:03.473Z"}
+{"level":"info","message":"Search Service is running on: http://localhost:3004","service":"api-gateway-service","timestamp":"2026-06-08T03:13:03.474Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:37:44.802Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:37:44.803Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:37:44.804Z"}
+{"expiredAt":"2026-06-08T01:56:57.000Z","level":"warn","message":"jwt expired","name":"TokenExpiredError","service":"api-gateway-service","stack":"TokenExpiredError: jwt expired\n    at E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at validateToken (file:///E:/Development/Development-notes/social-media-microservice/api-gateway/src/middleware/auth-middleware.js:19:9)\n    at Layer.handleRequest (E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\router\\index.js:342:13)\n    at E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\router\\index.js:297:9\n    at processParams (E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\router\\index.js:582:12)\n    at next (E:\\Development\\Development-notes\\social-media-microservice\\api-gateway\\node_modules\\router\\index.js:291:5)\n    at file:///E:/Development/Development-notes/social-media-microservice/api-gateway/src/server.js:48:3","timestamp":"2026-06-08T03:37:44.808Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'userId')","service":"api-gateway-service","timestamp":"2026-06-08T03:37:44.814Z"}
+{"0":" ","1":"r","2":"e","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled Rejection at ","service":"api-gateway-service","timestamp":"2026-06-08T03:37:44.815Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login/","service":"api-gateway-service","timestamp":"2026-06-08T03:37:48.110Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:37:48.111Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway-service","timestamp":"2026-06-08T03:37:48.367Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:37:51.036Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:37:51.037Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:37:51.037Z"}
+{"level":"info","message":"Response received from Identity Service: 201","service":"api-gateway-service","timestamp":"2026-06-08T03:37:51.344Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:38:34.168Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:38:34.169Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:38:34.169Z"}
+{"level":"info","message":"Response received from Identity Service: 201","service":"api-gateway-service","timestamp":"2026-06-08T03:38:34.235Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:39:54.331Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:39:54.332Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:39:54.332Z"}
+{"level":"info","message":"Response received from Identity Service: 201","service":"api-gateway-service","timestamp":"2026-06-08T03:39:54.398Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:40:31.800Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:40:31.801Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:40:31.801Z"}
+{"level":"info","message":"Response received from Identity Service: 201","service":"api-gateway-service","timestamp":"2026-06-08T03:40:31.879Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:41:26.401Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:41:26.401Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:41:26.402Z"}
+{"level":"info","message":"Response received from Identity Service: 201","service":"api-gateway-service","timestamp":"2026-06-08T03:41:26.464Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway-service","timestamp":"2026-06-08T03:41:30.377Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway-service","timestamp":"2026-06-08T03:41:30.378Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T03:41:30.378Z"}
+{"level":"info","message":"Response received from Identity Service: 201","service":"api-gateway-service","timestamp":"2026-06-08T03:41:30.445Z"}

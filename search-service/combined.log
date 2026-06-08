@@ -1,0 +1,65 @@
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:25:09.410Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:25:09.416Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:25:09.932Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:31:08.157Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:31:57.038Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:32:11.738Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:32:34.920Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:33:01.939Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:33:01.967Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:33:01.969Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:33:02.392Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:34:13.441Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:34:13.466Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:34:13.469Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:34:13.948Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:34:30.419Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:34:30.444Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:34:30.447Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:34:30.866Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:34:47.928Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:34:47.957Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:34:47.960Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:34:48.389Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:35:06.123Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:35:06.149Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:35:06.152Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:35:06.587Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:36:29.591Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:36:29.617Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:36:29.620Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:36:30.042Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:36:49.269Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:36:49.295Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:36:49.299Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:36:49.724Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:37:24.940Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:37:24.974Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:37:24.979Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:37:25.389Z"}
+{"level":"info","message":"Post created event triggered","service":"identity-service","timestamp":"2026-06-08T03:37:51.340Z"}
+{"level":"info","message":"Post saved in search","service":"identity-service","timestamp":"2026-06-08T03:37:51.347Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:38:26.579Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:38:26.608Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:38:26.612Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:38:27.061Z"}
+{"level":"info","message":"Post created event triggered","service":"identity-service","timestamp":"2026-06-08T03:38:34.234Z"}
+{"level":"info","message":"Post saved in search","service":"identity-service","timestamp":"2026-06-08T03:38:34.307Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:39:16.179Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:39:16.204Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:39:16.208Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:39:16.607Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:39:38.596Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:39:38.620Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:39:38.623Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:39:39.043Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2026-06-08T03:39:47.115Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"identity-service","timestamp":"2026-06-08T03:39:47.140Z"}
+{"level":"info","message":"Search service running on port 3004","service":"identity-service","timestamp":"2026-06-08T03:39:47.143Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2026-06-08T03:39:47.590Z"}
+{"level":"info","message":"Post created event triggered","service":"identity-service","timestamp":"2026-06-08T03:39:54.397Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: social-media-service.searches index: userId_1 dup key: { userId: \"6a2410b7e9677f8a5cf0dea1\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"6a2410b7e9677f8a5cf0dea1"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"6a2410b7e9677f8a5cf0dea1"},"level":"error","message":"Error while creating post in search. E11000 duplicate key error collection: social-media-service.searches index: userId_1 dup key: { userId: \"6a2410b7e9677f8a5cf0dea1\" }","service":"identity-service","stack":"MongoServerError: E11000 duplicate key error collection: social-media-service.searches index: userId_1 dup key: { userId: \"6a2410b7e9677f8a5cf0dea1\" }\n    at InsertOneOperation.handleOk (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at tryOperation (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:214:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async executeOperation (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async Collection.insertOne (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\collection.js:154:16)","timestamp":"2026-06-08T03:39:54.466Z"}
+{"0":" ","1":"r","2":"e","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at ","service":"identity-service","timestamp":"2026-06-08T03:39:54.467Z"}
+{"level":"info","message":"Post created event triggered","service":"identity-service","timestamp":"2026-06-08T03:40:31.877Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: social-media-service.searches index: userId_1 dup key: { userId: \"6a2410b7e9677f8a5cf0dea1\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"6a2410b7e9677f8a5cf0dea1"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"6a2410b7e9677f8a5cf0dea1"},"level":"error","message":"Error while creating post in search. E11000 duplicate key error collection: social-media-service.searches index: userId_1 dup key: { userId: \"6a2410b7e9677f8a5cf0dea1\" }","service":"identity-service","stack":"MongoServerError: E11000 duplicate key error collection: social-media-service.searches index: userId_1 dup key: { userId: \"6a2410b7e9677f8a5cf0dea1\" }\n    at InsertOneOperation.handleOk (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at tryOperation (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:214:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async executeOperation (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async Collection.insertOne (E:\\Development\\Development-notes\\social-media-microservice\\search-service\\node_modules\\mongodb\\lib\\collection.js:154:16)","timestamp":"2026-06-08T03:40:31.943Z"}
+{"0":" ","1":"r","2":"e","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at ","service":"identity-service","timestamp":"2026-06-08T03:40:31.944Z"}

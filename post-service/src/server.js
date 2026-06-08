@@ -88,10 +88,6 @@ async function startServer() {
 
 startServer();
 
-app.listen(PORT, () => {
-  logger.info(`Post service running on port: ${PORT}`);
-});
-
 // unhandledRejection
 process.on("unhandledRejection", (reason, promise) => {
   logger.error(`Unhandled Rejection at `, promise, " reason: ", reason);
