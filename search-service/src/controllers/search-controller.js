@@ -1,6 +1,7 @@
 import Search from "../models/Search.js";
 import { logger } from "../utils/logger.js";
 
+// Implement cacahing here
 export const searchPostController = async (req, res, next) => {
   logger.info("Search endpoint hit");
   try {

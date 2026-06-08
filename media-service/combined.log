@@ -258,3 +258,16 @@
 {"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T03:13:15.216Z"}
 {"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T03:13:15.216Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T03:13:15.644Z"}
+{"0":"o","1":"k","10":"q","11":"u","12":"a","13":"x","14":"t","15":"c","16":"m","17":"f","18":"m","19":"j","2":"5","3":"j","4":"0","5":"o","6":"b","7":"z","8":"3","9":"s","level":"info","message":"Media deleted successfully from cloud storage","service":"media-service","timestamp":"2026-06-08T03:58:12.601Z"}
+{"level":"info","message":"Deleted media: 6a26136614568cce14126cb5 associated with this deleted post: 6a2639eac256d333a1f3281b","service":"media-service","timestamp":"2026-06-08T03:58:12.657Z"}
+{"level":"info","message":"Processed media deletion from post: 6a2639eac256d333a1f3281b","service":"media-service","timestamp":"2026-06-08T03:58:12.658Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T05:48:26.771Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T05:48:26.833Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T05:48:26.856Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T05:48:26.857Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T05:48:27.410Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T05:48:56.208Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T05:48:56.323Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T05:48:56.345Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T05:48:56.346Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T05:48:56.792Z"}

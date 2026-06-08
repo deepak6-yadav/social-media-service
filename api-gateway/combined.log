@@ -917,3 +917,27 @@
 {"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:00:58.047Z"}
 {"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:00:58.047Z"}
 {"level":"info","message":"Response received from Search Service: 200","service":"api-gateway-service","timestamp":"2026-06-08T04:00:58.139Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?search=first","service":"api-gateway-service","timestamp":"2026-06-08T04:02:58.329Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:02:58.329Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:02:58.329Z"}
+{"level":"info","message":"Response received from Search Service: 500","service":"api-gateway-service","timestamp":"2026-06-08T04:02:58.431Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?search=first","service":"api-gateway-service","timestamp":"2026-06-08T04:04:08.187Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:04:08.187Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:04:08.188Z"}
+{"level":"info","message":"Response received from Search Service: 200","service":"api-gateway-service","timestamp":"2026-06-08T04:04:08.282Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?qeury=first","service":"api-gateway-service","timestamp":"2026-06-08T04:04:21.119Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:04:21.120Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:04:21.120Z"}
+{"level":"info","message":"Response received from Search Service: 200","service":"api-gateway-service","timestamp":"2026-06-08T04:04:21.178Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?qeury=first","service":"api-gateway-service","timestamp":"2026-06-08T04:04:40.259Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:04:40.259Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:04:40.259Z"}
+{"level":"info","message":"Response received from Search Service: 500","service":"api-gateway-service","timestamp":"2026-06-08T04:04:40.349Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?qeury=deepak","service":"api-gateway-service","timestamp":"2026-06-08T04:04:49.644Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:04:49.645Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:04:49.645Z"}
+{"level":"info","message":"Response received from Search Service: 500","service":"api-gateway-service","timestamp":"2026-06-08T04:04:49.701Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=deepak","service":"api-gateway-service","timestamp":"2026-06-08T04:05:00.499Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway-service","timestamp":"2026-06-08T04:05:00.500Z"}
+{"level":"info","message":"Validating token","service":"api-gateway-service","timestamp":"2026-06-08T04:05:00.500Z"}
+{"level":"info","message":"Response received from Search Service: 200","service":"api-gateway-service","timestamp":"2026-06-08T04:05:00.557Z"}
