@@ -1,0 +1,255 @@
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:17:06.265Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:17:57.383Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:19:02.648Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:19:03.188Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:27:42.571Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:27:59.310Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:27:59.910Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:28:39.540Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:28:40.147Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:28:42.259Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T08:28:42.260Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T08:28:42.278Z"}
+{"level":"info","message":"File details: name:undefined, type: undefined","service":"media-service","timestamp":"2026-06-07T08:28:42.279Z"}
+{"level":"info","message":"Upload to cloudinary starting","service":"media-service","timestamp":"2026-06-07T08:28:42.279Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public id: noy9zc1abfsg2hccihk0 ","service":"media-service","timestamp":"2026-06-07T08:28:46.554Z"}
+{"_message":"Media validation failed","errors":{"mimeType":{"kind":"required","message":"Path `mimeType` is required.","name":"ValidatorError","path":"mimeType","properties":{"message":"Path `mimeType` is required.","path":"mimeType","type":"required"}},"originalName":{"kind":"required","message":"Path `originalName` is required.","name":"ValidatorError","path":"originalName","properties":{"message":"Path `originalName` is required.","path":"originalName","type":"required"}}},"level":"error","message":"Failed to upload file. Media validation failed: originalName: Path `originalName` is required., mimeType: Path `mimeType` is required.","service":"media-service","stack":"ValidationError: Media validation failed: originalName: Path `originalName` is required., mimeType: Path `mimeType` is required.\n    at Document.invalidate (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\mongoose\\lib\\document.js:3381:32)\n    at E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\mongoose\\lib\\document.js:3142:17\n    at E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1443:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2026-06-07T08:28:46.573Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:30:35.728Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:30:36.318Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:30:37.485Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T08:30:37.486Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T08:30:37.507Z"}
+{"level":"info","message":"File details: name:undefined, type: undefined","service":"media-service","timestamp":"2026-06-07T08:30:37.508Z"}
+{"level":"info","message":"Upload to cloudinary starting","service":"media-service","timestamp":"2026-06-07T08:30:37.508Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public id: elxeyrrq2h5o9lr68xnk ","service":"media-service","timestamp":"2026-06-07T08:30:55.424Z"}
+{"_message":"Media validation failed","errors":{"mimeType":{"kind":"required","message":"Path `mimeType` is required.","name":"ValidatorError","path":"mimeType","properties":{"message":"Path `mimeType` is required.","path":"mimeType","type":"required"}},"originalName":{"kind":"required","message":"Path `originalName` is required.","name":"ValidatorError","path":"originalName","properties":{"message":"Path `originalName` is required.","path":"originalName","type":"required"}}},"level":"error","message":"Failed to upload file. Media validation failed: originalName: Path `originalName` is required., mimeType: Path `mimeType` is required.","service":"media-service","stack":"ValidationError: Media validation failed: originalName: Path `originalName` is required., mimeType: Path `mimeType` is required.\n    at Document.invalidate (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\mongoose\\lib\\document.js:3381:32)\n    at E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\mongoose\\lib\\document.js:3142:17\n    at E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1443:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2026-06-07T08:30:55.433Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:31:26.702Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:31:27.285Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:31:35.220Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:31:35.795Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:31:38.924Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T08:31:38.925Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T08:31:38.944Z"}
+{"level":"error","message":"Failed to upload file. originalName is not defined","service":"media-service","stack":"ReferenceError: originalName is not defined\n    at uploadMedia (file:///E:/Development/Development-notes/social-media-microservice/media-service/src/controllers/media-controller.js:20:39)\n    at Layer.handleRequest (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///E:/Development/Development-notes/social-media-microservice/media-service/src/routes/media-routes.js:45:7\n    at done (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:69:7)\n    at indicateDone (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:73:68)\n    at Multipart.<anonymous> (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:243:7)\n    at Multipart.emit (node:events:519:28)\n    at emitCloseNT (node:internal/streams/destroy:148:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2026-06-07T08:31:38.945Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:31:41.793Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T08:31:41.793Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T08:31:41.816Z"}
+{"level":"error","message":"Failed to upload file. originalName is not defined","service":"media-service","stack":"ReferenceError: originalName is not defined\n    at uploadMedia (file:///E:/Development/Development-notes/social-media-microservice/media-service/src/controllers/media-controller.js:20:39)\n    at Layer.handleRequest (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///E:/Development/Development-notes/social-media-microservice/media-service/src/routes/media-routes.js:45:7\n    at done (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:69:7)\n    at indicateDone (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:73:68)\n    at Multipart.<anonymous> (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:243:7)\n    at Multipart.emit (node:events:519:28)\n    at emitCloseNT (node:internal/streams/destroy:148:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2026-06-07T08:31:41.817Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:31:58.998Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:31:59.641Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:32:22.432Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T08:32:22.433Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T08:32:22.451Z"}
+{"level":"error","message":"Failed to upload file. originalName is not defined","service":"media-service","stack":"ReferenceError: originalName is not defined\n    at uploadMedia (file:///E:/Development/Development-notes/social-media-microservice/media-service/src/controllers/media-controller.js:20:39)\n    at Layer.handleRequest (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///E:/Development/Development-notes/social-media-microservice/media-service/src/routes/media-routes.js:45:7\n    at done (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:69:7)\n    at indicateDone (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:73:68)\n    at Multipart.<anonymous> (E:\\Development\\Development-notes\\social-media-microservice\\media-service\\node_modules\\multer\\lib\\make-middleware.js:243:7)\n    at Multipart.emit (node:events:519:28)\n    at emitCloseNT (node:internal/streams/destroy:148:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2026-06-07T08:32:22.453Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T08:32:49.090Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T08:32:49.735Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T08:32:52.268Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T08:32:52.269Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T08:32:52.288Z"}
+{"level":"info","message":"File details: name:134145139996854483.jpg, type: image/jpeg","service":"media-service","timestamp":"2026-06-07T08:32:52.289Z"}
+{"level":"info","message":"Upload to cloudinary starting","service":"media-service","timestamp":"2026-06-07T08:32:52.289Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public id: l7mzkb7w914rahtr3gtj ","service":"media-service","timestamp":"2026-06-07T08:32:56.484Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T11:59:34.235Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T11:59:34.920Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:00:08.516Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:00:09.429Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:00:20.175Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:00:20.797Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:00:32.344Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:00:34.160Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:00:34.894Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:01:05.644Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:01:06.671Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:02:04.390Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:02:05.018Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:02:39.282Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:02:40.234Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:02:56.790Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:02:57.608Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:03:17.225Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:03:19.312Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:03:32.563Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:03:33.647Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:03:37.874Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:03:38.771Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-07T12:04:25.026Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-07T12:04:40.432Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-07T12:04:43.933Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:05:03.820Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:05:04.791Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:18:04.278Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:18:05.969Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:18:06.656Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:20:06.231Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:20:06.933Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:20:17.611Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:20:18.240Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:20:26.548Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:20:27.167Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:20:35.927Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:20:36.637Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:21:19.584Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:21:20.229Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:21:35.449Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:21:36.168Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:22:01.336Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:22:01.972Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:22:08.892Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:22:09.574Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:22:26.048Z"}
+{"level":"info","message":"Received GET request to /api/media/all-medias","service":"media-service","timestamp":"2026-06-07T12:22:26.515Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T12:22:26.516Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:22:26.672Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-07T12:22:58.235Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T12:22:58.236Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-07T12:22:58.256Z"}
+{"level":"info","message":"File details: name:134145139996854483.jpg, type: image/jpeg","service":"media-service","timestamp":"2026-06-07T12:22:58.256Z"}
+{"level":"info","message":"Upload to cloudinary starting","service":"media-service","timestamp":"2026-06-07T12:22:58.256Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public id: jrc6gwskpecy9gt01ru7 ","service":"media-service","timestamp":"2026-06-07T12:23:02.623Z"}
+{"level":"info","message":"Received GET request to /api/media/all-medias","service":"media-service","timestamp":"2026-06-07T12:23:15.933Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-07T12:23:15.934Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:23:44.488Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:23:45.200Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:29:48.228Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:29:48.930Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:30:49.325Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:30:49.946Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:31:08.063Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:31:08.770Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:32:47.226Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:32:47.832Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:32:57.747Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:32:58.378Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:33:52.484Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:33:53.066Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:34:38.844Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:34:39.496Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:34:58.165Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:34:58.799Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:35:31.013Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:35:31.715Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:36:09.003Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:36:09.602Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:37:16.142Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-07T12:37:16.274Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-07T12:37:16.275Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-07T12:37:16.725Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:50:15.537Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:50:15.651Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:50:52.699Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:50:52.845Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:51:13.235Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:51:13.352Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:51:15.937Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:51:16.052Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:51:21.770Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:51:21.887Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:51:34.282Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:51:34.399Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:51:44.548Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:51:44.668Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:51:49.962Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:51:50.078Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:52:45.649Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:52:45.764Z"}
+{"level":"error","message":"Failed to connect to server channel.bindQueye is not a function","service":"media-service","stack":"TypeError: channel.bindQueye is not a function\n    at consumeEvent (file:///E:/Development/Development-notes/social-media-microservice/media-service/src/utils/rabbitmq.js:33:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///E:/Development/Development-notes/social-media-microservice/media-service/src/server.js:37:5)","timestamp":"2026-06-08T00:52:45.861Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:52:56.389Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:52:56.523Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T00:52:56.654Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:52:56.655Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T00:52:56.978Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:53:31.623Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T00:53:31.732Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T00:53:31.754Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T00:53:31.755Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T00:53:32.182Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-06-08T00:57:05.877Z"}
+{"level":"info","message":"Received body, undefined","service":"media-service","timestamp":"2026-06-08T00:57:05.878Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-06-08T00:57:05.901Z"}
+{"level":"info","message":"File details: name:image_3.jpg, type: image/jpeg","service":"media-service","timestamp":"2026-06-08T00:57:05.901Z"}
+{"level":"info","message":"Upload to cloudinary starting","service":"media-service","timestamp":"2026-06-08T00:57:05.902Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public id: ok5j0obz3squaxtcmfmj ","service":"media-service","timestamp":"2026-06-08T00:57:10.871Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:02:54.793Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:02:54.915Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:02:54.944Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:02:54.945Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:02:55.401Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:03:16.487Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:03:16.608Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:03:16.630Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:03:16.631Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:03:17.050Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:06:15.497Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:06:15.615Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:06:15.641Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:06:15.642Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:06:16.097Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:06:34.908Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:06:35.029Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:06:35.051Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:06:35.052Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:06:35.512Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:08:43.084Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:08:43.216Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:08:43.239Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:08:43.240Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:08:43.714Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:09:23.485Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:09:23.605Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:09:23.626Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:09:23.627Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:09:24.048Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:09:30.411Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:09:30.529Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:09:30.549Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:09:30.550Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:09:31.014Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:09:37.012Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:09:37.125Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:09:37.147Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:09:37.148Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:09:37.616Z"}
+{"0":" ","1":"r","2":"e","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at ","service":"media-service","timestamp":"2026-06-08T01:10:15.349Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:10:34.069Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:10:34.181Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:10:34.202Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:10:34.203Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:10:34.673Z"}
+{"0":" ","1":"r","2":"e","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at ","service":"media-service","timestamp":"2026-06-08T01:10:50.113Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:11:40.164Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:11:40.278Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:11:40.298Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:11:40.299Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:11:40.767Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:12:26.158Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:12:26.268Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:12:26.289Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:12:26.289Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:12:26.725Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:12:37.134Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:12:37.247Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:12:37.268Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:12:37.269Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:12:37.738Z"}
+{"0":" ","1":"r","2":"e","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at ","service":"media-service","timestamp":"2026-06-08T01:12:54.748Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:14:01.479Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:14:01.603Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:14:01.625Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:14:01.626Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:14:02.090Z"}
+{"level":"info","message":"Media ids deleted successfully: 6a26136614568cce14126cb5","service":"media-service","timestamp":"2026-06-08T01:14:16.035Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:17:07.101Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:17:07.212Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:17:07.236Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:17:07.237Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:17:07.694Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:17:43.174Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:17:43.294Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:17:43.317Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:17:43.318Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:17:43.739Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:17:55.080Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2026-06-08T01:17:55.197Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-06-08T01:17:55.219Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2026-06-08T01:17:55.220Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2026-06-08T01:17:55.690Z"}
