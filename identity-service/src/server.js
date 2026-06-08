@@ -56,7 +56,7 @@ const passRedisClient = (req, res, next) => {
   next();
 };
 
-app.use("/api/auth", authRoutes);
+app.use("/api/auth",passRedisClient, authRoutes);
 
 // Error handler
 app.use(errorHandler);
