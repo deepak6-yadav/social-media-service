@@ -578,3 +578,7 @@
 {"level":"info","message":"Received body, [object Object]","service":"post-service","timestamp":"2026-06-08T01:14:15.909Z"}
 {"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2026-06-08T01:14:15.911Z"}
 {"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2026-06-08T01:14:15.960Z"}
+{"level":"info","message":"Post service running on port: 3002","service":"post-service","timestamp":"2026-06-08T02:53:07.475Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2026-06-08T02:53:07.598Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2026-06-08T02:53:07.599Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2026-06-08T02:53:08.000Z"}
