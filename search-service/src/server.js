@@ -13,7 +13,10 @@ import { errorHandler } from "./middleware/errorHandler.js";
 
 import searchRoute from "./routes/search-route.js";
 import { connectRabbitMQ, consumeEvent } from "./utils/rabbitmq.js";
-import { handlePostCreated } from "./eventHandlers/search-event-handler.js";
+import {
+  handlePostCreated,
+  handlePostDeleted,
+} from "./eventHandlers/search-event-handler.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -77,6 +80,7 @@ async function startServer() {
     // consume all the events
 
     await consumeEvent("post.created", handlePostCreated);
+    await consumeEvent("post.deleted", handlePostDeleted);
 
     app.listen(PORT, () => {
       logger.info(`Search service running on port ${PORT}`);

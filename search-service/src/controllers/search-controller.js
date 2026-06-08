@@ -5,7 +5,6 @@ export const searchPostController = async (req, res, next) => {
   logger.info("Search endpoint hit");
   try {
     const { query } = req.query;
-
     const results = await Search.find(
       {
         $text: { $search: query },
@@ -14,10 +13,10 @@ export const searchPostController = async (req, res, next) => {
         score: { $meta: "textScore" },
       },
     )
-      .sort({ score: { $meta: "textSore" } })
+      .sort({ score: { $meta: "textScore" } })
       .limit(10);
 
-    res.json(results);
+    return res.json(results);
   } catch (error) {
     logger.error("Error while searching.", error);
     return res.status(500).json({

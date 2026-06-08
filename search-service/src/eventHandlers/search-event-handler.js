@@ -26,3 +26,17 @@ export const handlePostCreated = async (event) => {
     });
   }
 };
+
+export const handlePostDeleted = async (event) => {
+  try {
+    await Search.findOneAndDelete({ postId: event.postId });
+
+    logger.info(`Search post deleted: ${event.postId}`);
+  } catch (error) {
+    logger.error("Error while deleting post in search.", error);
+    return res.status(500).json({
+      success: false,
+      message: "Error while handling post delete event",
+    });
+  }
+};
