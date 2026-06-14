@@ -2,6 +2,7 @@
 
 import RefreshToken from "../models/RefreshToken.js";
 import User from "../models/user.js";
+import { setAuthCookies } from "../utils/cookie.js";
 import { generateTokens } from "../utils/generatetokens.js";
 import { logger } from "../utils/logger.js";
 import { validateLogin, validateRegistration } from "../utils/valiation.js";
@@ -90,6 +91,8 @@ export const login = async (req, res, next) => {
     }
 
     const { accessToken, refreshToken } = await generateTokens(user);
+
+    setAuthCookies(res, user._id.toString(), "role");
 
     logger.info("User login successfull");
 
