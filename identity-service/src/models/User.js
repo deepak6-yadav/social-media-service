@@ -37,6 +37,15 @@ userSchema.pre("save", async function (next) {
   }
 });
 
+userSchema.methods.toJSON = function(){
+  const user = this;
+  const userObject = user.toObject();
+  
+  delete userObject.password;
+  delete userObject.tokens;
+  return userObject;
+}
+
 userSchema.methods.comparePassword = async function (candidatePassword) {
   try {
     return await argon2.verify(this.password, candidatePassword);

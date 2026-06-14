@@ -12,7 +12,10 @@ import { RedisStore } from "rate-limit-redis";
 
 import { errorHandler } from "./middleware/errorHandler.js";
 import authRoutes from "./routes/identity-service.js";
+import productRoutes from "./routes/product-route.js";
 import { logger } from "./utils/logger.js";
+import { validateLogin } from "./utils/valiation.js";
+import { validateToken } from "./middleware/auth-middleware.js";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -56,7 +59,8 @@ const passRedisClient = (req, res, next) => {
   next();
 };
 
-app.use("/api/auth",passRedisClient, authRoutes);
+app.use("/api/auth", passRedisClient, authRoutes);
+app.use("/api/auth/products", validateToken, productRoutes);
 
 // Error handler
 app.use(errorHandler);

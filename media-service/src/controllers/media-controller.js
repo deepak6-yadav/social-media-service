@@ -68,3 +68,65 @@ export const getAllMedias = async (req, res, next) => {
     });
   }
 };
+
+
+async function upload() {
+  const file =
+    document.getElementById("fileInput")
+      .files[0];
+
+  const chunkSize =
+    5 * 1024 * 1024; // 5 MB
+
+  const totalChunks =
+    Math.ceil(file.size / chunkSize);
+
+  const fileId =
+    crypto.randomUUID();
+
+  for (let i = 0; i < totalChunks; i++) {
+    const start = i * chunkSize;
+    const end = Math.min(
+      start + chunkSize,
+      file.size
+    );
+
+    const chunk = file.slice(start, end);
+
+    const formData = new FormData();
+
+    formData.append("chunk", chunk);
+    formData.append("fileId", fileId);
+    formData.append("chunkNumber", i);
+
+    await fetch(
+      "http://localhost:3000/upload-chunk",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    console.log(
+      `Uploaded chunk ${i + 1}/${totalChunks}`
+    );
+  }
+
+  await fetch(
+    "http://localhost:3000/merge",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type":
+          "application/json",
+      },
+      body: JSON.stringify({
+        fileId,
+        fileName: file.name,
+        totalChunks,
+      }),
+    }
+  );
+
+  console.log("Upload completed");
+}
